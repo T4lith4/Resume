@@ -50,7 +50,7 @@ function App() {
          
         </Content>
         <Footer size="mini">
-          <FooterSection type="right" logo="Talitha Kruger">
+          <FooterSection type="right" logo="Talitha">
             <FooterLinkList>
               <a href="https://github.com/T4lith4/">
                 <i className="fab fa-github"></i>
