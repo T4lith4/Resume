@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.546cf64a.chunk.css",
+    "main.js": "/static/js/main.c2c89028.chunk.js",
+    "main.js.map": "/static/js/main.c2c89028.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4fdf4b88.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4fdf4b88.js.map",
+    "static/css/2.21cf0685.chunk.css": "/static/css/2.21cf0685.chunk.css",
+    "static/js/2.25856b16.chunk.js": "/static/js/2.25856b16.chunk.js",
+    "static/js/2.25856b16.chunk.js.map": "/static/js/2.25856b16.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.261d1157d39253b60e38f889b82c27dd.js": "/precache-manifest.261d1157d39253b60e38f889b82c27dd.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.21cf0685.chunk.css.map": "/static/css/2.21cf0685.chunk.css.map",
+    "static/css/main.546cf64a.chunk.css.map": "/static/css/main.546cf64a.chunk.css.map",
+    "static/media/express.png": "/static/media/express.fd103945.png",
+    "static/media/me.jpg": "/static/media/me.0930b0e5.jpg",
+    "static/media/App.css": "/static/media/module.dabc6d85.jpg",
+    "static/media/mongodb.png": "/static/media/mongodb.33fcfd53.png",
+    "static/media/skills.png": "/static/media/skills.14dc9970.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4fdf4b88.js",
+    "static/css/2.21cf0685.chunk.css",
+    "static/js/2.25856b16.chunk.js",
+    "static/css/main.546cf64a.chunk.css",
+    "static/js/main.c2c89028.chunk.js"
+  ]
+}

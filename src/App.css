@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Reenie+Beanie&display=swap');
+
+/*Navbar and body of resume changing color*/
+.header-color {
+    animation: backgroundCycle linear 25000ms infinite alternate-reverse both;
+  }
+
+  @keyframes backgroundCycle {
+    0% {
+      background-color: #02414d;
+      
+    }
+
+    50% {
+      background-color: #731742;;
+    }
+
+    100% {
+      background-color: #98989d;
+     
+    }
+  }
+
+/*landing page styles*/
+.landing-grid {
+  height: 100vh;
+  overflow: hidden;
+  text-align: center;
+}
+
+figure {
+  display: inline-block;
+  position: relative;
+  margin-top: 1rem;
+  -moz-transform:rotate(-5deg);
+  -webkit-transform:rotate(-5deg);
+  -ms-transform:rotate(-5deg);
+  transform:rotate(-5deg);
+}
+
+.profile-img {
+  border-color: white;
+  border-width: 15px;
+  -moz-border-image: url(http://tobias-reinhardt.de/img/frame.png) 20 stretch;
+  border-image: url(http://tobias-reinhardt.de/img/frame.png) 20 stretch;
+  border-style: solid;
+  margin: auto;
+  width: 350px;
+}
+
+figcaption {
+  position: absolute;
+  left: 14px;
+  right: 14px;
+  bottom: 16px;
+  background-color: white;
+  text-align: center;
+  color: black;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.intro {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+i {
+  color: white;
+}
+
+i:hover {
+  color: black;
+}
+
+/*about page styles*/
+.about-intro {
+  font-size: 17px;
+  margin: 5rem;
+  text-align: left;
+}
+
+.about-grid {
+  border-radius: 10px;
+  width: 94%;
+  background-color:#DFDFE6;
+  font-size: 80px;
+  font-weight: bold;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.about-heading {
+  margin-left: 2rem;
+  font-size: 70px;
+  font-weight: lighter;
+  color: black;
+  font-family: 'Raleway', sans-serif;
+ 
+}
+.skills-img {
+  width: 70%;
+  display: flex;
+  margin: auto;
+  padding-bottom: 3rem;
+
+}
+
+/*project page styles*/
+.project-grid h3 {
+  margin-left: 2rem;
+  font-size: 70px;
+  font-weight: lighter;
+  color: black;
+  font-family: 'Raleway', sans-serif;
+}
+
+.project-grid {
+  border-radius: 10px;
+  width: 94%;
+  color: white;
+  background-color:#ffefcf;
+  font-size: 80px;
+  font-weight: bold;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.line {
+  border: 0;
+  height: 2;
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+  margin-top: -2px;
+}
+
+.project-grid i {
+  color: grey;
+  font-size: 25px;
+  margin-right: 5px;
+}
+
+.icon {
+  font-size: 23px;
+  margin-top: -10px;
+}
+
+.mongo-icon {
+  width: 25px;
+  margin-top: -10px;
+}
+
+.express-icon {
+  width: 25px;
+  margin-top: -10px;
+  margin-right: 5px;
+}
+
+/*contact page styles*/
+.contact-grid {
+  margin: auto;
+  border-radius: 10px;
+  width: 101%;
+}
+
+.icon-div {
+  text-align: center;
+}
+.contactDiv {
+  margin-left: 2rem;
+  position: relative;
+  z-index: 1;
+  height: 600px;
+}
+
+.contactDiv h1 {
+  font-family: 'Raleway', sans-serif;
+  margin-left: 2rem;
+  color: white;
+  font-size: 70px;
+  font-weight: lighter;
+}
+
+.contact-line {
+  border: 0;
+  height: 2;
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+  margin-top: -2px;
+  margin-bottom: 6rem;
+  width: 97%;
+}
+
+.contactDiv:before {
+  margin-right: 40px;
+  border-radius: 10px;
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url(./static/module.jpg);
+  background-size: cover;
+  opacity: .2;
+  border: 1px solid yellow;
+}
+
+.contact-icons  {
+  color: white;
+  font-size: 55px;
+  margin-bottom: 2rem;
+
+}
+
+.contact-icons:hover {
+ color: #C40093;
+}
+
+.contact-link, .call-link {
+  color: white;
+  font-size: 15px;
+  margin-right: 5rem;
+  margin-left: 5rem;
+}
+
+.call-link:hover {
+  color:#C40093; 
+}
+
+.contact-link:hover {
+  color: #C40093;
+}
+
+.a {
+  color: white;
+  text-align: center;
+  overflow: hidden;
+}
+
+/*timeline page styles*/
+.timeline-grid {
+  margin-right: auto; 
+  margin-left: auto;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  border-radius: 10px;
+  width: 94%;
+  background-color:#E3D2DD;
+  font-size: 80px;
+  font-weight: bold;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.timeline-grid h3 {
+  margin-left: 2rem;
+  font-size: 70px;
+  font-weight: lighter;
+  color: black;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+
+
+
