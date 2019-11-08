@@ -15,7 +15,7 @@ import "../App.css";
 const rotateAnimation = keyframes`${rotateIn}`;
 //Here I set specifics about how long I want the animation to last, and the delay time
 const Rotate = styled.div`
-  animation: 5s ${rotateAnimation};
+  animation: 2s ${rotateAnimation};
   animation-delay: 1s;
 `;
 
