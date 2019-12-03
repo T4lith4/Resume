@@ -68,7 +68,7 @@ class ProLine extends Component {
 
               <TimelineItem
                 key="003"
-                dateText="Feb 2017- Present"
+                dateText="Febuary 2017- Present"
                 dateInnerStyle={{ background: "#76bb7f" }}
               >
                 <h4>Au Pair</h4>
@@ -84,7 +84,7 @@ class ProLine extends Component {
               </TimelineItem>
               <TimelineItem
                 key="004"
-                dateText="Dec 16 – Feb 17"
+                dateText="December 2016 – Febuary 2017"
                 style={{ color: "#e86971" }}
               >
                 <h4>Web Development Diploma </h4>
@@ -223,7 +223,7 @@ class ProLine extends Component {
 
               <TimelineItem
                 key="008"
-                dateText="March 2019"
+                dateText="March 2014"
                 style={{ color: "#e86971" }}
               >
                 <h4>Cabin Crew License</h4>
@@ -239,7 +239,7 @@ class ProLine extends Component {
 
               <TimelineItem
                 key="009"
-                dateText="March 2019"
+                dateText="January 2013 - March 2019"
                 style={{ color: "#e86971" }}
               >
                 <h4>Cabin Crew Abinitio Certificate</h4>
@@ -256,7 +256,7 @@ class ProLine extends Component {
 
               <TimelineItem
                 key="0010"
-                dateText=""
+               dateText="January 2013 - November 2013"
                 dateInnerStyle={{ background: "#76bb7f" }}
               >
                 <h4>Junior Office Admin</h4>
