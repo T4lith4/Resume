@@ -68,7 +68,7 @@ class ProLine extends Component {
 
               <TimelineItem
                 key="003"
-                dateText="Febuary 2017- Present"
+                dateText="February 2017- Present"
                 dateInnerStyle={{ background: "#76bb7f" }}
               >
                 <h4>Au Pair</h4>
@@ -84,7 +84,7 @@ class ProLine extends Component {
               </TimelineItem>
               <TimelineItem
                 key="004"
-                dateText="December 2016 – Febuary 2017"
+                dateText="December 2016 – February 2017"
                 style={{ color: "#e86971" }}
               >
                 <h4>Web Development Diploma </h4>
