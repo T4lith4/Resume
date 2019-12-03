@@ -22,7 +22,7 @@ class ProLine extends Component {
             <Timeline lineColor={"#ddd"}>
               <TimelineItem
                 key="001"
-                dateText="October 2019"
+                dateText="April - October 2019"
                 style={{ color: "#e86971" }}
               >
                 <h4>Full Stack Web Developer Bootcamp </h4>
@@ -51,7 +51,7 @@ class ProLine extends Component {
 
               <TimelineItem
                 key="002"
-                dateText="March 2019"
+                dateText=" November 2018 - March 2019"
                 style={{ color: "#e86971" }}
               >
                 <h4>Responsive Web Design Certificate</h4>
@@ -276,7 +276,7 @@ class ProLine extends Component {
               
               <TimelineItem
                 key="0011"
-                dateText="November 2012"
+                dateText="January - November 2012"
                 style={{ color: "#e86971" }}
               >
                 <h4>Groove Class Drumming Certificate</h4>
