@@ -239,7 +239,7 @@ class ProLine extends Component {
 
               <TimelineItem
                 key="009"
-                dateText="January 2013 - March 2019"
+                dateText="January 2013 - March 2013"
                 style={{ color: "#e86971" }}
               >
                 <h4>Cabin Crew Abinitio Certificate</h4>
