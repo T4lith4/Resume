@@ -256,7 +256,7 @@ class ProLine extends Component {
 
               <TimelineItem
                 key="0010"
-                dateText="January 2013 – November 2013"
+                dateText=""
                 dateInnerStyle={{ background: "#76bb7f" }}
               >
                 <h4>Junior Office Admin</h4>
@@ -276,7 +276,7 @@ class ProLine extends Component {
               
               <TimelineItem
                 key="0011"
-                dateText="Nov 2012"
+                dateText="November 2012"
                 style={{ color: "#e86971" }}
               >
                 <h4>Groove Class Drumming Certificate</h4>
@@ -295,7 +295,7 @@ class ProLine extends Component {
                 </TimelineItem>
                 <TimelineItem
                 key="0011"
-                dateText="Nov 2011"
+                dateText="November 2011"
                 style={{ color: "#e86971" }}
               >
                 <h4>National Senior Certificate</h4>
