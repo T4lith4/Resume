@@ -256,7 +256,7 @@ class ProLine extends Component {
 
               <TimelineItem
                 key="0010"
-               dateText="January 2013 - November 2013"
+               dateText="January 2013 - November2013"
                 dateInnerStyle={{ background: "#76bb7f" }}
               >
                 <h4>Junior Office Admin</h4>
