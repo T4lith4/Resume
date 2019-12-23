@@ -301,7 +301,7 @@ class ProLine extends Component {
                 <h4>National Senior Certificate</h4>
                 <h5>The Training Academy</h5>
                 <p> I matriculated with a distinction in Mathematical Literacy</p>
-                <p>My additinal subjects were:</p>
+                <p>My additional subjects were:</p>
                 <ul>
                   <li>
                    Biology
