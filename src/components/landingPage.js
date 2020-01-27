@@ -5,18 +5,18 @@ import { Link } from "react-router-dom";
 //import animation components
 import styled, { keyframes } from "styled-components";
 //import animation "rotate"
-import { rotateIn } from "react-animations";
+import { zoomInUp } from "react-animations";
 //import picture
-import Me from "../static/me.jpg";
+
 import "../App.css";
 //import stylesheet
 
 //Here I define the actual animation 
-const rotateAnimation = keyframes`${rotateIn}`;
+const rotateAnimation = keyframes`${zoomInUp}`;
 //Here I set specifics about how long I want the animation to last, and the delay time
 const Rotate = styled.div`
-  animation: 2s ${rotateAnimation};
-  animation-delay: 1s;
+  animation:  ${rotateAnimation} 3s infinite;
+ 
 `;
 
 /*The Landing Page consists of a rotating picture of myself, as well as a welcome message */
@@ -25,21 +25,10 @@ class Landing extends Component {
     return (
       <div>
         <Grid className="landing-grid">
-          <Cell col={12}>
-            {" "}
-            <Rotate>
-              <figure>
-                <img src={Me} className="profile-img" alt="Talitha Kruger" />
-                <figcaption>Hi there! I am Talitha Kruger</figcaption>
-              </figure>
-            </Rotate>
+          <Cell col={12} style={{marginTop:"110px"}}>
          
-        
-            {" "}
-          
-              {" "}
               <div className="intro">
-              <h3>Welcome to my website</h3>
+         <h1>Hi! I'm Talitha</h1> 
               <h4> I am a Full Stack Web Developer</h4>
               <p>
                 React | HTML | CSS | Javascript | Express JS | MongoDB | Node JS
@@ -67,8 +56,12 @@ class Landing extends Component {
                 </a>
               </FABButton>
               </div>
+              <br/>
+              <h4 className="workAnimation"><Rotate>See my work <br/> &#8595;</Rotate></h4>
+              <h2> <a href="#projects"><i class="fas fa-briefcase"></i></a></h2>
+             
             
-          </Cell>{" "}
+          </Cell>
         </Grid>
       </div>
     );
