@@ -210,7 +210,7 @@ class ProLine extends Component {
                   </ul>
                 </p>
                 <p>
-                  Cain Crew Duties:
+                  Cabin Crew Duties:
                   <ul>
                     <li>Ensuring the safety of all passengers</li>
                     <li>
