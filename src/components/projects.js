@@ -84,7 +84,7 @@ class Projects extends Component {
               <CardActions border>
                 <Button colored>
                   {" "}
-                  <a href="https://vast-thicket-75136.herokuapp.com/">
+                  <a href="https://serene-elion-41aab6.netlify.com/">
                     View Live Demo{" "}
                   </a>
                 </Button>
