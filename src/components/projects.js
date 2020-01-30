@@ -71,7 +71,7 @@ class Projects extends Component {
                   color: "#fff",
                   height: "176px",
                   background:
-                    "url(https://docs.google.com/uc?id=1CL9bpdzJxKBgcSM4U6j9X9aZVVW7nhaD) top / cover"
+                    "url(https://docs.google.com/uc?id=1gKkaqeSV41ttbRuYc2IfQ-DrsuyZ0dpb) top / cover") top / cover"
                 }}
               ></CardTitle>
               <CardText>Memory Card Matching Game</CardText>
