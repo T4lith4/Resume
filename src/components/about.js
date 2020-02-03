@@ -6,7 +6,7 @@ import Zoom from 'react-reveal/Zoom';
 import '../App.css'
 //import picture mindmap
 import Skills from "../static/skillset.png";
-
+ 
 /*This is my About Component. I have included a short descripton as well as the mindap of my skills */
 class About extends Component {
   render() {
