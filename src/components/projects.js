@@ -114,7 +114,7 @@ class Projects extends Component {
               </CardText>
               <CardActions border>
                 <Button colored>
-                  <a href="https://whispering-sierra-08171.herokuapp.com/products.html">
+                  <a href="https://cans-addict.herokuapp.com/">
                     View Live Demo
                   </a>
                 </Button>
