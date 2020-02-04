@@ -35,34 +35,7 @@ class Projects extends Component {
 
             <hr className="line" />
           </Cell>
-          <Cell col={6}>
-            <Card shadow={0} style={{ width: "512px", margin: "auto" }}>
-              <CardTitle
-                style={{
-                  color: "#fff",
-                  height: "176px",
-                  background:
-                    "url(https://docs.google.com/uc?id=13oe08Ho_ML00P0Gb1ztl1fcu7p1VtWy7) top / cover"
-                }}
-              ></CardTitle>
-              <CardText>iTunes Media Search Application</CardText>
-              <CardText>
-                {" "}
-                <i className="fab react fa-react"></i>
-                <i className="fab fa-node"></i>
-                <i class="fab fa-css3-alt"></i>
-                <img className="express-icon" alt="express js" src={Express} />
-              </CardText>
-              <CardActions border>
-                <Button colored>
-                  <a href="https://shielded-woodland-75660.herokuapp.com/">
-                    View Live Demo
-                  </a>{" "}
-                </Button>
-              </CardActions>
-              <CardMenu style={{ color: "#fff" }}></CardMenu>
-            </Card>
-          </Cell>
+         
 
           <Cell col={6}>
             <Card shadow={0} style={{ width: "512px", margin: "auto" }}>
@@ -84,7 +57,7 @@ class Projects extends Component {
               <CardActions border>
                 <Button colored>
                   {" "}
-                  <a href="https://serene-elion-41aab6.netlify.com/">
+                  <a href="https://serene-elion-41aab6.netlify.com/" target="_blank" rel="noopener noreferrer">
                     View Live Demo{" "}
                   </a>
                 </Button>
@@ -96,7 +69,7 @@ class Projects extends Component {
           <Cell col={6}>
             <Card
               shadow={0}
-              style={{ width: "512px", margin: "auto", marginTop: "50px" }}
+              style={{ width: "512px", margin: "auto", marginTop: "0px" }}
             >
               <CardTitle
                 style={{
@@ -114,7 +87,7 @@ class Projects extends Component {
               </CardText>
               <CardActions border>
                 <Button colored>
-                  <a href="https://cans-addict.herokuapp.com/">
+                  <a href="https://cans-addict.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                     View Live Demo
                   </a>
                 </Button>
@@ -122,14 +95,15 @@ class Projects extends Component {
               <CardMenu style={{ color: "#fff" }}></CardMenu>
             </Card>
           </Cell>
-          <Cell col={6}>
+          <Cell col={12}>
             <Card
               shadow={0}
               style={{
                 width: "512px",
                 margin: "auto",
                 marginTop: "50px",
-                marginBottom: "50px"
+                marginBottom: "50px",
+               
               }}
             >
               <CardTitle
@@ -154,7 +128,7 @@ class Projects extends Component {
               </CardText>
               <CardActions border>
                 <Button colored>
-                  <a href="https://peaceful-bastion-44849.herokuapp.com/">
+                  <a href="https://peaceful-bastion-44849.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                     View Live Demo
                   </a>
                 </Button>
@@ -169,3 +143,38 @@ class Projects extends Component {
 }
 
 export default Projects;
+
+/*
+
+ <Cell col={6}>
+
+           
+        
+
+<Card shadow={0} style={{ width: "512px", margin: "auto" }}>
+              <CardTitle
+                style={{
+                  color: "#fff",
+                  height: "176px",
+                  background:
+                    "url(https://docs.google.com/uc?id=13oe08Ho_ML00P0Gb1ztl1fcu7p1VtWy7) top / cover"
+                }}
+              ></CardTitle>
+              <CardText>iTunes Media Search Application</CardText>
+              <CardText>
+                {" "}
+                <i className="fab react fa-react"></i>
+                <i className="fab fa-node"></i>
+                <i class="fab fa-css3-alt"></i>
+                <img className="express-icon" alt="express js" src={Express} />
+              </CardText>
+              <CardActions border>
+                <Button colored>
+                  <a href="https://shielded-woodland-75660.herokuapp.com/">
+                    View Live Demo
+                  </a>{" "}
+                </Button>
+              </CardActions>
+              <CardMenu style={{ color: "#fff" }}></CardMenu>
+            </Card> 
+              </Cell>*/
