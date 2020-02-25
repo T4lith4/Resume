@@ -88,7 +88,7 @@ class ProLine extends Component {
                 style={{ color: "#e86971" }}
               >
                 <h4>Web Development Diploma </h4>
-                <h5>Shaw Acedemy</h5>
+                <h5>Shaw Academy</h5>
                 <ul>
                   <li>
                     Gained knowledge of the structural difference between
