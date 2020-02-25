@@ -227,7 +227,7 @@ class ProLine extends Component {
                 style={{ color: "#e86971" }}
               >
                 <h4>Cabin Crew License</h4>
-                <h5>South African Cavil Aviation Authority</h5>
+                <h5>South African Civil Aviation Authority</h5>
                 <ul>
                   <li>Standard, Safety and Emergency Procedures</li>
                   <li>Emergency Equipment, Firefighting and Survival Skills</li>
