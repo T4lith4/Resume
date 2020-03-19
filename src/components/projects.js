@@ -35,7 +35,6 @@ class Projects extends Component {
 
             <hr className="line" />
           </Cell>
-         
 
           <Cell col={6}>
             <Card shadow={0} style={{ width: "512px", margin: "auto" }}>
@@ -57,7 +56,11 @@ class Projects extends Component {
               <CardActions border>
                 <Button colored>
                   {" "}
-                  <a href="https://serene-elion-41aab6.netlify.com/" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://serene-elion-41aab6.netlify.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     View Live Demo{" "}
                   </a>
                 </Button>
@@ -87,7 +90,11 @@ class Projects extends Component {
               </CardText>
               <CardActions border>
                 <Button colored>
-                  <a href="https://cans-addict.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://cans-addict.herokuapp.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     View Live Demo
                   </a>
                 </Button>
@@ -102,8 +109,7 @@ class Projects extends Component {
                 width: "512px",
                 margin: "auto",
                 marginTop: "50px",
-                marginBottom: "50px",
-               
+                marginBottom: "50px"
               }}
             >
               <CardTitle
@@ -128,7 +134,11 @@ class Projects extends Component {
               </CardText>
               <CardActions border>
                 <Button colored>
-                  <a href="https://peaceful-bastion-44849.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://peaceful-bastion-44849.herokuapp.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     View Live Demo
                   </a>
                 </Button>

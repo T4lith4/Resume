@@ -11,12 +11,11 @@ import { zoomInUp } from "react-animations";
 import "../App.css";
 //import stylesheet
 
-//Here I define the actual animation 
+//Here I define the actual animation
 const rotateAnimation = keyframes`${zoomInUp}`;
 //Here I set specifics about how long I want the animation to last, and the delay time
 const Rotate = styled.div`
-  animation:  ${rotateAnimation} 3s infinite;
- 
+  animation: ${rotateAnimation} 3s infinite;
 `;
 
 /*The Landing Page consists of a rotating picture of myself, as well as a welcome message */
@@ -25,10 +24,9 @@ class Landing extends Component {
     return (
       <div>
         <Grid className="landing-grid">
-          <Cell col={12} style={{marginTop:"110px"}}>
-         
-              <div className="intro">
-         <h1>Hi! I'm Talitha</h1> 
+          <Cell col={12} style={{ marginTop: "110px" }}>
+            <div className="intro">
+              <h1>Hi! I'm Talitha</h1>
               <h4> I am a Full Stack Web Developer</h4>
               <p>
                 React | HTML | CSS | Javascript | Express JS | MongoDB | Node JS
@@ -55,12 +53,19 @@ class Landing extends Component {
                   <i className="far fa-envelope"></i>
                 </a>
               </FABButton>
-              </div>
-              <br/>
-              <h4 className="workAnimation"><Rotate>See my work <br/> &#8595;</Rotate></h4>
-              <h2> <a href="#projects"><i class="fas fa-briefcase"></i></a></h2>
-             
-            
+            </div>
+            <br />
+            <h4 className="workAnimation">
+              <Rotate>
+                See my work <br /> &#8595;
+              </Rotate>
+            </h4>
+            <h2>
+              {" "}
+              <a href="#projects">
+                <i class="fas fa-briefcase"></i>
+              </a>
+            </h2>
           </Cell>
         </Grid>
       </div>

@@ -17,65 +17,40 @@ class Contact extends Component {
             <Zoom>
               <h1 id="contact">Contact Me</h1>
             </Zoom>
-            <hr className="contact-line" />
-
-            
-          
-              
-                {" "}
-               
-               <div className="icon-div">
-                <p>
-                  <a
-                    className="contact-link"
-                    href="https://github.com/T4lith4/"
-                  >
-                    <i className="contact-icons fab fa-github"></i>
-                    <br />
-                  
-                  </a>
-                </p>
-              
-              
-                <p>
-                  <a
-                    className="contact-link contact-link-one"
-                    href="https://www.linkedin.com/in/talitha-kruger-3a7b07175/"
-                  >
-                    <i className=" contact-icons fab fa-linkedin-in"></i>
-                    <br />
-                   
-                  </a>
-                </p>
-         
-             
-             
-                {" "}
-                <p>
-                  <a
-                    href="mailto:talkruger9@gmail.com?Subject=Dear%20Talitha"
-                    target="_top"
-                    className="contact-link"
-                  >
-                    <i className="contact-icons far fa-envelope"></i>
-                    <br />
-                  
-                  </a>
-                </p>
-            
-            
-                {" "}
-                <p
-                  className="call-link"
-                  onClick={()=> alert("Reach me at 081 271 3734")}
+            <hr className="contact-line" />{" "}
+            <div className="icon-div">
+              <p>
+                <a className="contact-link" href="https://github.com/T4lith4/">
+                  <i className="contact-icons fab fa-github"></i>
+                  <br />
+                </a>
+              </p>
+              <p>
+                <a
+                  className="contact-link contact-link-one"
+                  href="https://www.linkedin.com/in/talitha-kruger-3a7b07175/"
                 >
-                  <i class="contact-icons fas fa-phone"></i> <br />
-            
-                </p>
-                </div>
-             
-            
-     
+                  <i className=" contact-icons fab fa-linkedin-in"></i>
+                  <br />
+                </a>
+              </p>{" "}
+              <p>
+                <a
+                  href="mailto:talkruger9@gmail.com?Subject=Dear%20Talitha"
+                  target="_top"
+                  className="contact-link"
+                >
+                  <i className="contact-icons far fa-envelope"></i>
+                  <br />
+                </a>
+              </p>{" "}
+              <p
+                className="call-link"
+                onClick={() => alert("Reach me at 081 271 3734")}
+              >
+                <i class="contact-icons fas fa-phone"></i> <br />
+              </p>
+            </div>
           </div>
           ;
         </Cell>
