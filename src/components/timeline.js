@@ -99,15 +99,15 @@ class ProLine extends Component {
                     </li>
                     <li>
                       {" "}
-                      Learnt common web apllication design methodologies, as
-                      well as Search Engine Optomization (SEO)
+                      Learnt common web application design methodologies, as
+                      well as Search Engine Optimization (SEO)
                     </li>
                     <li>
                       Learnt the purpose and function of front-end
                       responsiveness and interaction
                     </li>
                     <li>
-                      Understood what the back-end component was ans how it is
+                      Understood what the back-end component was and how it is
                       used to provide dynamic functionality and how it creates
                       databases.
                     </li>
