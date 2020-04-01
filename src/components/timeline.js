@@ -209,7 +209,7 @@ class ProLine extends Component {
                         their flight
                       </li>
                       <li>
-                        Arrival and and departure of passengers through
+                        Arrival and departure of passengers through
                         terminals
                       </li>
                     </ul>
